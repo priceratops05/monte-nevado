@@ -1,0 +1,239 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+  font-family: "Cabin", sans-serif;
+}
+
+#sct-monte-nevado, #sale, #contact {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  min-height: 600px;
+  text-align: center;
+  width: 50%;
+}
+
+.mint {
+  color: #42dca3;
+  cursor: pointer;
+}
+
+.button {
+  color: #42dca3;
+  border: 1px solid #42dca3;
+  font-size: 2rem;
+  padding: 15px;
+  min-width: 150px;
+  text-decoration: none;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.button:hover {
+  background: #42dca3;
+  color: #000;
+}
+
+header {
+  background-image: url("../images/intro-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+}
+
+header #sct-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 100px;
+}
+
+header #sct-navigation a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+header #banner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 460px;
+  width: 500px;
+}
+
+header #banner h1 {
+  font-size: 10rem;
+  margin-bottom: 50px;
+}
+
+header #banner p {
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+}
+
+header #banner a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  width: 40px;
+}
+
+main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #sct-monte-nevado h3, main #contact h3 {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+}
+
+main #sct-monte-nevado p, main #contact p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 30px;
+}
+
+main #sale {
+  background-image: url("../images/downloads-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+main #sale h3 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+main #sale p {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+main #contact p {
+  margin-bottom: 60px;
+}
+
+main #contact #btn-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #contact #btn-contact .button {
+  margin-right: 20px;
+}
+
+main #reservation {
+  height: 100vh;
+  padding: 50px;
+  min-height: 700px;
+  width: 100%;
+}
+
+main #reservation h3 {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+main #reservation .input-reservar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #reservation label, main #reservation p, main #reservation input {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+main #reservation #moneda-radio {
+  margin-bottom: 30px;
+}
+
+main #reservation #terminos-checkbox {
+  margin-top: 30px;
+}
+
+main #reservation #button-reservar {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer {
+  background: #000;
+  font-size: 1.4rem;
+  padding: 40px;
+  text-align: center;
+}
+/*# sourceMappingURL=base.css.map */

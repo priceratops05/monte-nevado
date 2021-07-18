@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Monte Nevado</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <script src="https://kit.fontawesome.com/4a30f6fcf9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section id="sct-navigation">
+            <div>
+                <a href="#sale">BRAND</a>
+            </div>
+            <nav>
+                <a href="#sct-monte-nevado">MONTE NEVADO</a>
+                <a href="#contact">CONTACTO</a>
+                <a href="#reservation">RESERVAR</a>
+            </nav>
+        </section>
+        <section id="banner">
+            <h1>EL MONTE NEVADO</h1>
+            <p>Hotel de montaña todo incluido</p>
+            <a href="#sct-monte-nevado"><i class="fas fa-angle-double-down"></i></a>
+        </section>
+    </header>
+    <main>
+        <section id="sct-monte-nevado">
+            <h3>MONTE NEVADO</h3>
+            <p>Monte Nevado es un hotel en la cima del <span class="mint">Monte Targón</span>, fundado en el año 1680. A lo largo de los años se ha convertido en el sitio predilecto de aquellos que buscan ascender.</p>
+            <p>Denominado como una de <span class="mint">Las nuevas maravillas</span> Monte Nevado transmite la sensación de conexión con el universo y con los diferentes <span class="mint">aspectos</span>.</p>
+            <p>Esperamos recibirlo pronto, para hacer de su estancia un momento inolvidable.</p>
+        </section>
+        <section id="sale">
+            <h3>25% DE DESCUENTO</h3>
+            <p>Puede obtener un 25% de descuento</p>
+            <a href="#reservation" class="button">HACER RESERVACION YA</a>
+        </section>
+        <section id="contact">
+            <h3>CONTACTO</h3>
+            <p>Nos puede escribir sin ningún compromiso por cualquiera de nuestras redes sociales o por nuestro <span class="mint">chat en línea</span></p>
+            <div id="btn-contact">
+                <a href="#" class="button"><i class="fab fa-google-plus-g"></i> GOOGLE+</a>
+                <a href="#" class="button"><i class="fab fa-twitter"></i> TWITTER</a>
+                <a href="#" class="button">CHAT</a>
+            </div>
+        </section>
+        <section id="reservation">
+            <h3>RESERVACIONES</h3>
+            <div class="input-reservar">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre">
+            </div>
+            <div class="input-reservar">
+                <label for="fecha-entrada">Fecha de entrada</label>
+                <input type="date" id="fecha-entrada">
+            </div>
+            <div class="input-reservar">
+                <label for="fecha-salida">Fecha de salida</label>
+                <input type="date" id="fecha-salida">
+            </div>
+            <div class="input-reservar">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-reservar">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono">
+            </div>
+            <div id="moneda-radio">
+                <p>Tipo de moneda con la que va a realizar el pago</p>
+            </div>
+            <div>
+                <input type="radio" id="colones" value="colones">
+                <label for="colones">Colones</label>
+            </div>
+            <div>
+                <input type="radio" id="dolares" value="dolares">
+                <label for="dolares">Dólares</label>
+            </div>
+            <div>
+                <input type="radio" id="euros" value="euros">
+                <label for="euros">Euros</label>
+            </div>
+            <div id="terminos-checkbox">
+                <input type="checkbox" id="terminos">
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+            <div id="button-reservar">
+                <a href="" class="button">RESERVAR</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © Monte Nevado 2021</p>
+    </footer>
+</body>
+
+</html>
